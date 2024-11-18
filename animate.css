@@ -1,0 +1,95 @@
+body.loaded .welcome-note {
+    color: red;
+    transform: translateY(0px);
+    opacity: 1;
+    animation: hideWelcome 1.5s ease-in-out backwards;
+
+}
+
+@keyframes showWelcome {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Full size and fully visible */
+    }
+}
+
+
+@keyframes hideWelcome {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-200px);
+        /* Full size and fully visible */
+    }
+}
+
+
+@keyframes showcontent {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Full size and fully visible */
+    }
+}
+
+@keyframes link-animate {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Full size and fully visible */
+    }
+}
+
+@keyframes section-animate {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+        
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Full size and fully visible */
+    }
+}
+
+@keyframes logolink-animate {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+        
+        /* Small scale and invisible */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        /* Full size and fully visible */
+    }
+}
